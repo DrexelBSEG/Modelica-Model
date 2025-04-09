@@ -8,6 +8,6 @@
   
 * CoSimulationDemo: The library used in Modelica_IBAL.mo. **Note** It also needs the Buildings 8.1.3 library, which is not uploaded because of the size limitation.
 
-* SimulinkRun: The MATLAB function used to call the Modelica fmu to run in the Simulink 
+* SimulinkRun: The MATLAB function (RunSimulinkValiDetail.m) used to call the Modelica fmu to run in the Simulink 
 
 * IBAL data process: The MATLAB code used to process IBAL raw data and generate the data for IBAL Modelica model
