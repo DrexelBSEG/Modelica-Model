@@ -5,6 +5,9 @@
   * _Output_: VAV supply air condition and the equipment power. 
 
 * Modelica_IBAL.fmu: The fmu file that converted from the Modelica_IBAL.mo. The fmu file can be used in MATLAB Simulink for simulation purposes.
+  
 * CoSimulationDemo: The library used in Modelica_IBAL.mo. **Note** It also needs the Buildings 8.1.3 library, which is not uploaded because of the size limitation.
+
+* SimulinkRun: The MATLAB function used to call the Modelica fmu to run in the Simulink 
 
 * IBAL data process: The MATLAB code used to process IBAL raw data and generate the data for IBAL Modelica model
